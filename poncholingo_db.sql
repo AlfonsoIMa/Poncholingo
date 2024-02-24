@@ -1,0 +1,3 @@
+CREATE TABLE IF NOT EXISTS nouns(id INTEGER PRIMARY KEY, prompted INTEGER, roles INTEGER, russian TEXT NOT NULL, spanish TEXT NOT NULL)
+CREATE TABLE IF NOT EXISTS adjectives(id INTEGER PRIMARY KEY, prompted INTEGER, roles INTEGER, russian_masculine TEXT NOT NULL, russian_femenine TEXT NOT NULL, russian_neuter TEXT NOT NULL, russian_plural TEXT NOT NULL, russian_adverb TEXT NOT NULL, spanish TEXT NOT NULL)
+CREATE TABLE IF NOT EXISTS verbs(id INTEGER PRIMARY KEY, prompted INTEGER, roles INTEGER, russian TEXT NOT NULL, spanish TEXT NOT NULL)
